@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <h1 class="main_logo">SOSO</h1>
+  <div id="app">
+    <Header></Header>
     <div>
       <h4>키보드</h4>
       <p>{{ keyboard_price }}</p>
@@ -10,10 +9,13 @@
       <h4>마우스</h4>
       <p>{{ mouse_price }}</p>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Header from './components/common/Header.vue'
+import Footer from './components/common/Footer.vue'
 
 export default {
   name: 'App',
@@ -24,6 +26,8 @@ export default {
     }
   },
   components: {
+    Header,
+    Footer
   }
 }
 </script>
@@ -36,8 +40,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-.main_logo{
-  color: darkorange;
 }
 </style>
