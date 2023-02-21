@@ -1,2 +1,0 @@
-# SOSO
-SOSO project
