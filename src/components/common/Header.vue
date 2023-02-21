@@ -15,5 +15,6 @@ export default {
 <style>
     .main_logo{
         color: darkorange;
+        font-size: 50px;
     }
 </style>
