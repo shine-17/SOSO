@@ -9,6 +9,9 @@
       <h4>마우스</h4>
       <p>{{ mouse_price }}</p>
     </div>
+    <router-link to="/1"> 1페이지로 </router-link>
+    <br>
+    <router-link to="/2"> 2페이지로 </router-link>
     <Footer></Footer>
   </div>
 </template>
